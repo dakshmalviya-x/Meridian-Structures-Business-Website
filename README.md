@@ -4,8 +4,7 @@ A complete, responsive 4-page business website for **Meridian Structures**, a fi
 structural & architectural engineering consultancy based in Bhopal. Built for Week 4:
 Complete Web Development Project — **Option 3: Professional Services Website**.
 
-[LIVE DEMO : ](meridian-structures-business-websit.vercel.app)
-
+[LIVE DEMO](https://meridian-structures-business-websit.vercel.app)
 ---
 
 ## 1. Project Overview
