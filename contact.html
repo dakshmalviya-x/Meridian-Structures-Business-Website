@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Meridian Structures</title>
+  <meta name="description" content="Get in touch with Meridian Structures, a structural and architectural engineering practice in Bhopal. Send your project details and we'll reply within one business day.">
+  <link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="images/logo-mark.svg" alt="" width="34" height="34">
+        <span>
+          Meridian Structures
+          <span class="brand-sub">Engineering &amp; Architecture</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <a class="btn btn-flag nav-cta" href="contact.html">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-header blueprint-grid">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Tell us about the site.</h1>
+        <p class="lede">Share a few details about the project and we'll reply within one business day — usually with a couple of clarifying questions before we quote.</p>
+      </div>
+    </section>
+
+    <section class="section on-paper" aria-labelledby="contact-heading">
+      <div class="container grid grid-2">
+
+        <!-- ===== Form ===== -->
+        <div>
+          <h2 id="contact-heading" class="visually-hidden">Send an inquiry</h2>
+
+          <form id="contact-form" novalidate>
+            <div class="form-status" id="form-status" role="status" tabindex="-1"></div>
+
+            <div class="field">
+              <label for="name">Full name <span class="required-mark">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" aria-describedby="name-error" aria-invalid="false">
+              <span class="field-error" id="name-error"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="required-mark">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-error" aria-invalid="false">
+              <span class="field-error" id="email-error"></span>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone <span style="color:var(--text-on-dark-muted); text-transform:none; letter-spacing:0;">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" aria-describedby="phone-error" aria-invalid="false">
+              <span class="field-error" id="phone-error"></span>
+            </div>
+
+            <div class="field">
+              <label for="projectType">Project type <span class="required-mark">*</span></label>
+              <select id="projectType" name="projectType" aria-describedby="projectType-error" aria-invalid="false">
+                <option value="">Select one…</option>
+                <option value="new-construction">New construction</option>
+                <option value="renovation">Renovation / retrofit</option>
+                <option value="assessment">Site / foundation assessment</option>
+                <option value="construction-admin">Construction administration</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="projectType-error"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Project description <span class="required-mark">*</span></label>
+              <textarea id="message" name="message" aria-describedby="message-error" aria-invalid="false" placeholder="Location, approximate size, and what stage you're at."></textarea>
+              <span class="field-error" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-flag btn-block">Send inquiry</button>
+          </form>
+        </div>
+
+        <!-- ===== Office info ===== -->
+        <div>
+          <ul class="contact-info-list stack" style="gap:0;">
+            <li>
+              <span class="label">Office</span>
+              <span>Meridian Structures, MP Nagar, Zone II, Bhopal, Madhya Pradesh 462011</span>
+            </li>
+            <li>
+              <span class="label">Phone</span>
+              <a href="tel:+917551234567">+91 755 123 4567</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:hello@meridianstructures.example">hello@meridianstructures.example</a>
+            </li>
+            <li>
+              <span class="label">Hours</span>
+              <span>Monday–Saturday, 10:00–18:00 IST</span>
+            </li>
+          </ul>
+
+          <div style="margin-top: var(--space-4);" aria-hidden="true">
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="320" height="220" fill="none" stroke="#e7e0cc" stroke-width="1"/>
+              <g stroke="#e7e0cc" stroke-width="1">
+                <line x1="40" y1="0" x2="40" y2="220"/>
+                <line x1="120" y1="0" x2="120" y2="220"/>
+                <line x1="200" y1="0" x2="200" y2="220"/>
+                <line x1="280" y1="0" x2="280" y2="220"/>
+                <line x1="0" y1="55" x2="320" y2="55"/>
+                <line x1="0" y1="110" x2="320" y2="110"/>
+                <line x1="0" y1="165" x2="320" y2="165"/>
+              </g>
+              <path d="M160 80 a26 26 0 1 0 0.01 0 Z" fill="none" stroke="#e2762e" stroke-width="2.5"/>
+              <circle cx="160" cy="80" r="7" fill="#e2762e"/>
+              <line x1="160" y1="106" x2="160" y2="150" stroke="#e2762e" stroke-width="2.5"/>
+              <text x="160" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#4a5a66">MP NAGAR, BHOPAL</text>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Meridian Structures</h4>
+          <p style="max-width: 40ch;">Structural &amp; architectural engineering practice based in Bhopal, Madhya Pradesh.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="tel:+917551234567">+91 755 123 4567</a>
+          <a href="mailto:hello@meridianstructures.example">hello@meridianstructures.example</a>
+        </div>
+        <div>
+          <h4>Office</h4>
+          <p>MP Nagar, Zone II<br>Bhopal, Madhya Pradesh 462011</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-current-year>2026</span> Meridian Structures. All rights reserved.</p>
+        <p>Student coursework project — not a real engineering practice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
