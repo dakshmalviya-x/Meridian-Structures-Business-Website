@@ -4,7 +4,7 @@ A complete, responsive 4-page business website for **Meridian Structures**, a fi
 structural & architectural engineering consultancy based in Bhopal. Built for Week 4:
 Complete Web Development Project — **Option 3: Professional Services Website**.
 
-Live demo: _add your deployed URL here after publishing (see Deployment, below)._
+
 
 ---
 
